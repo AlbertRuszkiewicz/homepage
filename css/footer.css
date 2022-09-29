@@ -1,0 +1,15 @@
+
+/* footer.css */
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #e9d89b;
+    border-radius: 5px;
+}
+
+.footer--dark{
+    background-color: #30241b;
+}

@@ -1,0 +1,26 @@
+
+/* navigation.css */
+
+.navigation {
+    padding: 0px 10px;
+}
+
+.navigation__list {
+    list-style: none;
+    line-height: 2;
+    margin: auto;
+    padding: 0;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #206104;
+}
+
+.navigation__link:hover {
+    color: #51ab2a;
+}
+
+.navigation__link:visited {
+    color: #a0b597;
+}

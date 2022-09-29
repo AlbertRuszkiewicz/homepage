@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <title>Homepage</title>
+
+  <!--
+    <strong></strong>   ważne,pilne, ostrzeżenie, kluczowe?
+
+    <b></b>     zwróć uwagę / godne uwagi / ciekawostka?
+
+    <em></em>   nacisk, akcent na słowo / uformowanie kontekstu?
+
+    <i></i>     pojęcie techniczne, słowo w obcym języku, myśl, cytat?
+    -->
+</head>
+
+<body class="body js-body">
+  <header class="header js-headerTheme">
+    <h1 class="header__title js-headerTitleTheme">Albert Ruszkiewicz</h1>
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li><a class="navigation__link" href="#jestem-albert">Jestem Albert</a></li>
+      <li><a class="navigation__link" href="#moja-dewiza">Moja dewiza</a></li>
+      <li><a class="navigation__link" href="#polecana-literatura">Polecana literatura</a></li>
+    </ul>
+    <button class="button js-changeTheme">Zmień motyw na <span class="js-themeName">ciemny</span></button>
+  </nav>
+  <main>
+    <section class="section">
+      <h2 class="section__title js-sectionTitleTheme" id="jestem-albert">Aspirujący programista</h2>
+
+      <p class="section__paragraph">
+        Jestem <strong>Albert</strong>. Od dawna interesowało mnie programowanie, więc bardzo się cieszę ze
+        swojego udziału w kursie YouCode. Największą frajdę sprawia mi <b>odnajdywanie błędów i poszukiwanie
+          rozwiązań</b>. Nie przepadam za to za kreatywną częścią taką jak pisanie o sobie.
+      </p>
+
+    </section>
+    <section class="section">
+
+      <h2 class="section__title js-sectionTitleTheme" id="moja-dewiza">Moja dewiza</h2>
+      <img class="section__image" src="Sokrates.png" alt="Fragment obrazu Śmierć Sokratesa">
+      <p class="section__paragraph">
+        Ulubiony cytat to Sokrates: <i class="section__idiom js-sectionIdiomTheme">"Wiem, że nic nie wiem"</i>. Moja
+        interpretacja, na
+        dobrą
+        sprawę, to pierwsze sformułowanie <i class="section__idiom js-sectionIdiomTheme">prawa Dunninga-Krugera</i>. Jak
+        człowiek zaczyna
+        posiadać wiedzę w jakiejś specjalności, to równolegle zdaje sobie sprawę, jak dużo informacji do
+        zgłębienia
+        jeszcze przed nim.
+      </p>
+      <h3 class="section__title js-sectionTitleTheme">Serce filozofa</h3>
+      <p class="section__paragraph">
+        Uwielbiam <em>filozoficzne</em> rozważania i mogę na godziny zatracić się w dyskusji o funkcjonowaniu
+        świata,
+        fizyce oraz umyśle człowieka.
+      </p>
+    </section>
+    <section class="section js-random">
+      <h4 class="section__title js-sectionTitleTheme">Lorem ipsum dolor</h4>
+      <p class="section__paragraph">
+        Sit, amet consectetur adipisicing elit. Quos dolore neque aspernatur vitae natus iusto ut ducimus
+        accusamus!
+        Nesciunt assumenda voluptatum consequuntur, magnam provident perspiciatis porro? Molestias esse sed
+        harum.
+      </p>
+
+      <h5 class="section__title js-sectionTitleTheme"> Sint blanditiis ipsam</h5>
+      <p class="section__paragraph">
+        Ipsa placeat omnis ex deleniti? Fuga enim sequi expedita, inventore placeat odio minima
+        quasi. Beatae
+        expedita
+        alias ipsa, autem illum aspernatur! Dolorum pariatur sunt est autem ipsa optio excepturi! Tenetur facere
+        nam
+        quibusdam porro dicta. Architecto, enim quae? Sit, deleniti. Qui inventore obcaecati repudiandae
+        provident
+        et
+        omnis iure dolor est corrupti sequi excepturi nemo beatae culpa, quae hic consequatur autem voluptatum
+        nisi!
+      </p>
+      <button class="button js-deleteRandom">Usuń losowy tekst na zawsze :P</button>
+    </section>
+    <div class="tableContainer">
+      <table class="table js-tableTheme" id="polecana-literatura">
+        <caption class="table__caption js-tableCaptionTheme">Polecana literatura</caption>
+        <tr class="table__row js-tableRowTheme">
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="col">Tytuł</th>
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="col">Autor</th>
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="col">Gatunek</th>
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="col">Rok wydania</th>
+        </tr>
+        <tr class="table__row js-tableRowTheme">
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="row">Saga Miecz Prawdy</th>
+          <td class="table__cell">Terry Goodkind</td>
+          <td class="table__cell">fantasy</td>
+          <td class="table__cell">1995-2015</td>
+        </tr>
+        <tr class="table__row js-tableRowTheme">
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="row">Lekcje stoicyzmu</th>
+          <td class="table__cell">John Sellars</td>
+          <td class="table__cell">filozofia</td>
+          <td class="table__cell">2020</td>
+        </tr>
+        <tr class="table__row js-tableRowTheme">
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="row">Factfulness</th>
+          <td class="table__cell">Hans Rosling</td>
+          <td class="table__cell">popularno-naukowa</td>
+          <td class="table__cell">2018</td>
+        </tr>
+        <tr class="table__row js-tableRowTheme">
+          <th class="table__cell table__cell--header js-tableHeaderTheme" scope="row">Pożegnaj prokrastynację</th>
+          <td class="table__cell">Leszek Cibor</td>
+          <td class="table__cell">popularno-naukowa</td>
+          <td class="table__cell">2021</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <footer class="footer js-footerTheme">
+    <p>
+      Copyright Lorem ipsum dolor sit amet
+    </p>
+  </footer>
+</body>
+
+</html>

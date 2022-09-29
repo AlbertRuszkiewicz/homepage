@@ -1,0 +1,15 @@
+
+/* button.css */
+
+.button {
+    cursor: pointer;
+    padding: 2px 7px;
+    margin: 2px;
+    background-color: #eeeadc;
+    border: 1px solid #777;
+    border-radius: 30px;
+}
+
+.button--dark{
+    background-color: #eeeadc;
+}

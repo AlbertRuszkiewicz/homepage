@@ -1,0 +1,21 @@
+
+/* header.css */
+
+.header {
+    background-color: #e9d89b;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.header__title {
+    margin: 5px 0px;
+    text-shadow: 1px 2px 5px #bbb;
+}
+
+.header--dark {
+    background-color: #30241b;
+}
+
+.header__title--dark {
+    text-shadow: 1px 2px 5px #111;
+}
